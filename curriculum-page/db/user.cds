@@ -33,3 +33,8 @@ entity AcademicBackground: managed, cuid {
     dateOfStart : Date;
     dateOfEnd : Date;
 }
+
+entity Chart : cuid {
+    mes : String;
+    quantidade : Integer
+}
